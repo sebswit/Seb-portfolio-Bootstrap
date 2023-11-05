@@ -1,0 +1,22 @@
+/* Global styles */
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/* Navbar */
+
+.navbar {
+    
+
+}
+
+.navbar-bramd {
+    margin:50px;
+}
+
+/* banner */
+.banner{
+    height: 500px;
+}
+
