@@ -26,41 +26,30 @@
 
 <body>
 <!-- Navigation bar -->
-<section class="navBar">     
-  <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
+<section class="navBar" style="height: 15%">     
+  <nav class="navbar d-flex flex-row">
     <a class="navbar-brand" href="#"><img src="...">Sebastian Switakowski</a>
-     <div class="justify-content-end">  
+     <div class="float-end"> 
+      <div class=" d-flex flex-row">
     <a class="nav-link " href="#">About Me</a>
     <a class="nav-link " href="#">Work</a>
-    <a class="nav-link " href="#">Contact</a>   
+    <a class="nav-link " href="#">Contact</a>  
+    </div> 
     </div> 
   </nav>
-  <!-- <ul class="nav justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Active</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-    </li>
-  </ul> -->
 </section>
 
 <!-- Banner -->
 <section class="banner">
-  <div class="container-fluid">
+  <div class="container-fluid" style="height: 200px">
+    <img src="/images/02-hero-bg.jpg" class="d-flex flex-nowrap" alt="dd"/>
    <h2 class="float-end">Cool Subtitle</h2>
   </div>
 </section>
 
 <!-- About Me -->
-<div class="container text-center">
-  <div class="row align-items-center">
+<div class="container" style="height:200px">
+  <div class="d-flex flex-row mb-2">
     <div class="col-4">
       About Me
     </div>
@@ -70,17 +59,20 @@
   </div>
 </div>
 <!-- Work -->
-<div class="container text-center">
-  <div class="row">
+<div class="container" style="height: 400px">
+  <div class="d-flex flex-row mb-2">
     <div class="col-4">
       Work
     </div>
     <div class="col-8">
-      Horiseon
+      <div class="justify-content-center">
+        Horiseon
+      </div>
     </div>
   </div>
+  
 
-  <div class="row">
+  <div class="d-flex flex-row mb-3">
     <div class="col-4">
        
     </div>
@@ -91,7 +83,7 @@
       Demo
     </div>
   </div>
-  <div class="row">
+  <div class="d-flex flex-row mb-3">
     <div class="col-4">
 
     </div>
@@ -104,10 +96,10 @@
   </div>
 </div>
 <!-- Contact -->
-<div class="container text-center">
-  <div class="row align-items-end">
+<div class="container" style="200px">
+  <div class="d-flex flex-row mb-4">
     <div class="col-4">
-      Contact
+     Contact
     </div>
     <div class="col-2">
       Mobile
@@ -121,11 +113,8 @@
     <div class="col-2">
       LinkedIn
     </div>
-
-
-
   </div>
 </div>
-<!-- Footer -->
 
 </body>
+<!-- Footer -->
