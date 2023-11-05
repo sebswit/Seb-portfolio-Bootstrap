@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"> -->
 
    <!-- Custom styles for this template -->
-   <link href="css/index.css" rel="stylesheet">
+   <link href="assets/style.css" rel="stylesheet">
 
   <title>Seb's Prtfolio</title>
 </head>
@@ -40,12 +40,14 @@
 </section>
 
 <!-- Banner -->
-<section class="banner">
-  <div class="container-fluid" style="height: 200px">
-    <img src="/images/02-hero-bg.jpg" class="d-flex flex-nowrap" alt="dd"/>
-   <h2 class="float-end">Cool Subtitle</h2>
+<div class="banner">
+  <div class="bg-image" style="background-image: url('./images/02-hero-bg.jpg'); height: 50vh;">
+    <div class="color-overlay d-flex justify-content-end align-items-end">  
+   <h1>Cool Subtitle</h1>
+   </div>
   </div>
-</section>
+</div>
+
 
 <!-- About Me -->
 <div class="container" style="height:200px">
@@ -61,12 +63,14 @@
 <!-- Work -->
 <div class="container" style="height: 400px">
   <div class="d-flex flex-row mb-2">
-    <div class="col-4">
+    <div class="side col-4">
       Work
     </div>
-    <div class="col-8">
-      <div class="justify-content-center">
-        Horiseon
+    <div class=" col-8">
+      <div class="hori"  style="background-image: url('/images/02-portfolio-1.jpg'); height: 50px;">
+      <div class="color-overlay d-flex justify-content-center align-items-end"> 
+      <h2>Horiseon</h2>
+      </div>
       </div>
     </div>
   </div>
@@ -77,21 +81,21 @@
        
     </div>
     <div class="col-4">
-      Prework
+      <img src="/images/02-portfolio-2.jpg" class="bg-image" alt="dd"/>
     </div>
     <div class="col-4">
-      Demo
+      <img src="/images/02-portfolio-3.jpg" class="img-thumbnail" alt="dd"/>
     </div>
   </div>
   <div class="d-flex flex-row mb-3">
     <div class="col-4">
-
+      
     </div>
     <div class="col-4">
-      TBA
+      <img src="/images/02-portfolio-4.jpg" class="d-flex flex-nowrap" alt="dd"/>
     </div>
     <div class="col-4">
-      TBA
+      <img src="/images/02-portfolio-4.jpg" class="d-flex flex-nowrap" alt="dd"/>
     </div>
   </div>
 </div>
