@@ -48,6 +48,24 @@ h1 {
 .container{
     margin-top: 20px;
 }
-h2{
-    
+.aboutme{
+    height: 30vh;
+   margin-top: 20px;
+   margin-bottom: 300px;
+}
+
+
+
+.carousel-item{
+    height: 30vh;
+    margin-top: 20px;
+
+}
+h5{
+    font-weight: 4rem;
+}
+.carousel-item p{
+    font-weight: bold;
+    text-shadow: 20px;
+
 }
